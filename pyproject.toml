@@ -21,9 +21,7 @@ classifiers = [
 
 # Is this the most recent version?
 # What does `pypi.org` say?
-dependencies = [
-    "pandas==2.2.2"
-]
+dependencies = ["pydantic==2.11.7"]
 
 [dependency-groups]
 # Don't tag these since they aren't packaged

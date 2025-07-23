@@ -20,6 +20,6 @@ dependencies = [
     "pandas==2.2.2"
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 # Don't tag these since they aren't packaged
-dev = ["pre-commit", "pytest"]
+dev = ["pre-commit", "pytest", "uv"]

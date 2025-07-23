@@ -22,4 +22,4 @@ dependencies = [
 
 [project.optional-dependencies]
 # Don't tag these since they aren't packaged
-dev = ["pre-commit"]
+dev = ["pre-commit", "pytest"]

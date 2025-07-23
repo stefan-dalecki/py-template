@@ -24,6 +24,13 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.13'
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
       - name: Run pre-commit hooks
         run: |
           uv run pre-commit run --all-files

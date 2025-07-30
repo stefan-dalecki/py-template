@@ -13,7 +13,7 @@ The following prerequisites are required to set up your AI project:
 * [Python](https://www.python.org/downloads/) version 3.11 or higher
 * [uv](https://docs.astral.sh/uv/) package manager
 
-While some might consider `uv` to be supplemental, it is so efficient that it is becoming the defacto Python package manager. Just like how AI is looming, so is `uv`. It's best to these tools sooner rather than later.
+While some might consider `uv` to be supplemental, it is so efficient that it is becoming the defacto Python package manager. Just like how AI is looming, so is `uv`. It's best to accustom ourselves to these tools sooner rather than later.
 
 ### UV
 

@@ -5,7 +5,7 @@ While AI is certainly empowering, it ultimately needs personal regulation. Is my
 Regardless of what AI is doing for us, we need guardrails. Below are some basic files that provide minimal and necessary code quality in your repo.
 
 - [ ] `pyproject.toml`: a configuration file for Python projects
-- [ ] `pre-commit-config.yaml`: CI hooks for safely integrating code into your codebase
 - [ ] `__init__.py`: Python package initialization file
 - [ ] `main.py`: root file for your code
+- [ ] `pre-commit-config.yaml`: CI hooks for safely integrating code into your codebase
 - [ ] `./.github/workflows/ci.yaml`: GitHub Actions workflow for continuous integration
